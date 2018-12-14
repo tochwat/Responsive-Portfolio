@@ -129,7 +129,8 @@ hr {
     background-color: #ffffff;
     padding: 10px 24px 24px 24px;
     border: 1px solid #dddddd;
-    width: 960px;
+    /*width: 960px;* - removed this line from homework 1*/
+    width: auto;
 }
 
 .bioPic {
@@ -234,3 +235,31 @@ footer {
 
 }
 
+
+
+
+@media only screen and (max-width: 980px) {
+    .main {
+        margin: 31px 32% 75px 6%;
+    }
+    .headerName {
+        margin-left: 6%;
+    }
+    .nav {
+        margin-right: 6%;
+    }
+    footer{
+        padding: 16px 0 31px 0;
+    }
+    
+} 
+
+
+@media only screen and (max-width: 768px) {
+
+} 
+
+
+@media only screen and (max-width: 640px) {
+
+} 
