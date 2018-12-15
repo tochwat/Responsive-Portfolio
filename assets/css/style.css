@@ -256,10 +256,67 @@ footer {
 
 
 @media only screen and (max-width: 768px) {
-
+    .main {
+        margin: 31px 2% 75px 2%;
+    }
+    .headerName {
+        margin-left: 2%;
+    }
+    .nav {
+        margin-right: 2%;
+    }
 } 
 
 
 @media only screen and (max-width: 640px) {
+    .main {
+        margin: 31px 5% 75px 5%;
+    }
+    
+    header {
+        position: static;
+    }
 
+    .headerName {
+        padding: 20px 0px 17px 0px;
+        width: 100%;
+        text-align:center;
+        margin-left:0;
+    }
+    .nav {
+        width: 223px;
+        margin: 0 auto;
+        float: unset;
+        line-height: 51px;
+        
+    }
+
+    .bioPic {
+        width: 100%;
+    }
+
+    .grid-container {
+        grid-template-columns: auto;
+        padding: 1px;
+    }
+
+
+    .grid-container > div {
+        width: 523px;
+    
+    }
+
+    .gridImg {
+        width: 523px;
+    }
+
+    .grid-name {
+        width: 523px;
+        margin-top: 451px;
+    }
+
+    hr {
+        margin-top: 28px;
+        margin-bottom: 32px;
+    }
 } 
